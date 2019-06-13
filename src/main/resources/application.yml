@@ -36,4 +36,7 @@ springfox:
       v2:
         path: /swagger
 
-#TODO: add eureka config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.team-l.cloud.school.thoughtworks.cn/
